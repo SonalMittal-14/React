@@ -9,8 +9,7 @@ function App() {
 
   return (
     <>
-      <div className=' h-screen ' style={{backgroundColor: color }}>
-        <div className='fixed flex flex-wrap justify-center bottom-12 insert-x-0 px-2 '>
+    <div className='fixed flex flex-wrap bottom-12 left-[30%]  px-2 '>
           <div className='flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-3xl'>
             <button  onClick={() => setColor("red")}   className='outline-none px-4 bg-red-600 py-1 rounded-full text-white shadow-lg'>Red</button>
             <button  onClick={() => setColor("green")}  className='outline-none px-4 bg-green-600 py-1 rounded-full text-white shadow-lg'>Green</button>
@@ -22,7 +21,9 @@ function App() {
             <button  onClick={() => setColor("black")}   className='outline-none px-4 bg-black py-1 rounded-full text-white shadow-lg'>Black</button>
           </div>
         </div>
+      <div className='w-full min-h-screen ' style={{backgroundColor: color }}>
       </div>
+        
     </>
   )
 }
