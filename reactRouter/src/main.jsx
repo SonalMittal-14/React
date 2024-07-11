@@ -9,6 +9,7 @@ import About from './Components/About/About.jsx'
 import Contact from './Components/Contact/Contact.jsx'
 import User from './Components/User/User.jsx'
 import Github from './Components/GitHub/Github.jsx'
+// import {Routes , Route} from "react-router-dom"
 
 const router = createBrowserRouter([
   {
@@ -42,12 +43,12 @@ const router = createBrowserRouter([
 
 // const router = createBrowserRouter(
 //   createRoutesFromElements(
-//     <Route  path='/' element={<Layout/>}>
-//       <Route  path='' element={<Home/>}>
-//       <Route  path='about' element={<About/>}>
-//       <Route  path='contact' element={<Contact/>}>
+//     <Routes  >
+//       <Route  path='/' element={<Home/>}/>
+//       <Route  path='about' element={<About/>}/>
+//       <Route  path='contact' element={<Contact/>}/>
 
-//     </Route>
+//     </Routes>
 //   )
 // )
 
